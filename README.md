@@ -78,13 +78,6 @@ project-folder/
 ### **Local Setup**
 1. Download the project folder  
 2. Double-click **index.html** to open in any browser  
-
-### **Optional: GitHub Pages**
-1. Push to GitHub  
-2. Go to **Settings → Pages → Deploy from main**  
-3. Your site will be live at:  
-   `https://yourusername.github.io/your-repo-name`
-
 ---
 
 ## 📸 Screenshots
@@ -104,5 +97,6 @@ This project demonstrates:
 - Forms, lists, navigation  
 - Modern CSS animations and hover effects  
 
-Designed for full marks in the Web Technologies Lab assignment.
+
+
 
