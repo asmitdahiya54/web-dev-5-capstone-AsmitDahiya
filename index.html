@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foodie - Delicious Food Delivery</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <nav class="navbar">
+        <div class="logo">Foodie</div>
+        <ul class="nav-links">
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#restaurants">Restaurants</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#loginModal">Sign In / Login</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" placeholder="Search restaurant by location">
+            <button>Search</button>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>Delicious Food Delivered to Your Door</h1>
+        <p>Order from the best restaurants near you</p>
+        <a href="#categories" class="cta-btn">Browse Categories</a>
+    </div>
+</section>
+
+<!-- Categories -->
+<section id="categories" class="categories">
+    <h2>Food Categories</h2>
+    <div class="category-list">
+        <div class="category-card">
+            <img src="images/burger.jpg" alt="Burger">
+            <p>Burger</p>
+        </div>
+        <div class="category-card">
+            <img src="images/pizza.jpg" alt="Pizza">
+            <p>Pizza</p>
+        </div>
+        <div class="category-card">
+            <img src="images/north-indian.jpg" alt="North Indian">
+            <p>North Indian</p>
+        </div>
+        <div class="category-card">
+            <img src="images/dosa.jpg" alt="Dosa & Sambar">
+            <p>Dosa & Sambar</p>
+        </div>
+        <div class="category-card">
+            <img src="images/chinese.jpg" alt="Chinese">
+            <p>Chinese</p>
+        </div>
+        <div class="category-card">
+            <img src="images/dessert.jpg" alt="Dessert">
+            <p>Dessert</p>
+        </div>
+    </div>
+</section>
+
+<!-- Restaurants -->
+<section id="restaurants" class="restaurants">
+    <h2>Top Restaurants</h2>
+    <div class="restaurant-grid">
+
+        <article class="restaurant-card">
+            <img src="images/elite-house.jpg" alt="Elite House Cafe & Restaurant">
+            <h3>Elite House Cafe & Restaurant</h3>
+            <p>⭐ 4.4</p>
+        </article>
+
+        <article class="restaurant-card">
+            <img src="images/road-side-cafe.jpg" alt="The Road Side Cafe">
+            <h3>The Road Side Cafe</h3>
+            <p>⭐ 4.1</p>
+        </article>
+
+        <article class="restaurant-card">
+            <img src="images/veg-haveli.jpg" alt="Veg Haveli">
+            <h3>Veg Haveli</h3>
+            <p>⭐ 4.7</p>
+        </article>
+
+        <article class="restaurant-card">
+            <img src="images/rasoi-king.jpg" alt="The Rasoi King">
+            <h3>The Rasoi King</h3>
+            <p>⭐ 4.6</p>
+        </article>
+
+    </div>
+</section>
+
+<!-- Offers Section -->
+<section id="offers" class="offers">
+    <h2>Special Offers</h2>
+    <ul>
+        <li>15% off + Free delivery on restaurants within 8 km</li>
+        <li>Gift cards on orders above ₹499</li>
+    </ul>
+</section>
+
+<!-- Login / Sign In Modal -->
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Sign In</h2>
+    <form>
+      <label for="email-login">Email</label>
+      <input type="email" id="email-login" placeholder="Enter your email" required>
+      
+      <label for="password-login">Password</label>
+      <input type="password" id="password-login" placeholder="Enter your password" required>
+      
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="#">Sign Up</a></p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Foodie. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
