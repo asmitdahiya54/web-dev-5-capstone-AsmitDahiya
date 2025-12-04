@@ -82,10 +82,12 @@ project-folder/
 
 ## 📸 Screenshots
 
-Include:
+### 🖥 Desktop View
+![Desktop Screenshot](./images/screenshot-desktop.png)
 
-- `screenshot-desktop.png`
-- `screenshot-mobile.png`
+### 📱 Mobile View
+![Mobile Screenshot](./images/screenshot-mobile.png)
+
 
 ---
 
@@ -96,6 +98,7 @@ This project demonstrates:
 - Clean UI  
 - Forms, lists, navigation  
 - Modern CSS animations and hover effects  
+
 
 
 
